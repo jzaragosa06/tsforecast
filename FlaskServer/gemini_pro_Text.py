@@ -14,7 +14,7 @@ def to_markdown(text):
 
 model = genai.GenerativeModel('gemini-pro')
 
-api_key = "AIzaSyDUFnIcM040z-zIN-d5EL4FGzOj_Ps5ybs"
+api_key = "api-key"
 genai.configure(api_key=api_key)
 
 
